@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MyloginPage.css">
+    <script src="Myloginpage.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <form action="newLCpage.html" method="post" class="myform">
+        <div class="login_frame">
+            <div class="heading_info">
+                <h1>Login</h1>
+                <img src="user.png" width="32" height="30" alt="">
+            </div>
+            <div class="login_info">
+                <h3 id="us_lbl">Username</h3>
+                <input type="text" name="username" id="username" placeholder="Enter username">
+                <h3 id="ps_lbl">Password</h3>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="forget_password">
+                <a href="">
+                    <h4>Forgot password</h4>
+                </a>
+            </div>
+
+            <div class="submiting_form">
+                <div class="buttons">
+                    <input type="submit" value="Login" id="btn_1" onclick="validate()">
+                    <input type="button" value="Register" id="btn_2">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

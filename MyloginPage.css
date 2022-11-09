@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+
+
+.login_frame {
+
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 510px;
+    top: 125px;
+    border-radius: 10px;
+    background: #F6DDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.heading_info h1 {
+    position: absolute;
+    width: 98px;
+    height: 44px;
+    left: 201px;
+    top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 237px;
+    top: 80px;
+    border-radius: 10px;
+}
+
+.login_info #us_lbl {
+
+    position: absolute;
+    width: 81px;
+    height: 29px;
+    left: 130px;
+    top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #763E7B;
+}
+
+.login_info #username {
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    left: 130px;
+    top: 200px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    border: 1px solid #942CD5;
+}
+
+.login_info #ps_lbl {
+    position: absolute;
+    width: 81px;
+    height: 29px;
+    left: 130px;
+    top: 240px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #763E7B;
+
+}
+
+.login_info #password {
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    left: 130px;
+    top: 290px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    border: 1px solid #942CD5;
+}
+
+/*#password .placeholder {
+    text-align: center;
+    font-size: 40px;
+    
+}*/
+
+#btn_1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 128px;
+    height: 30px;
+    left: 140px;
+    top: 400px;
+    background: #942CD5;
+    border: 1px solid #942CD5;
+    border-radius: 10px;
+}
+
+#btn_2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 128px;
+    height: 30px;
+    left: 290px;
+    top: 400px;
+    background: #F6DDFF;
+    border: 2px solid #942CD5;
+    border-radius: 10px;
+}
+
+.forget_password {
+    position: absolute;
+    width: 181px;
+    height: 20px;
+    left: 130px;
+    top: 330px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #763E7B;
+}
+
+#username:hover {
+  border: 1px solid darkmagenta;
+}
+
+#username {
+    padding-left: 20px;
+}
+
+#password {
+    padding-left: 20px;
+}
+
+#password:hover {
+    border: 1px solid darkmagenta;
+  }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="newLCpage.css">
+    <script src="newLCpage.js"></script>
+    <title>NEW LC PAGE</title>
+</head>
+
+<body>
+    <form action="newLCpage.js" method="post">
+    <div class="mainLCframe">
+        <div class="dashboard">
+            <div class="userImg"></div>
+            <h4 class="user">Mandar Kelkar</h4>
+            <h4 class="explore">Explore</h4>
+
+            <div class="dashboarditems">
+                <h4 class="item1"><a href="homePage.html"><span id="d">Dashboard</span></a></h4>
+
+                <h4 class="item2"><a href=""><span id="d">Student Info</span></a></h4>
+
+                <h4 class="item3"><a href="newLCpage.html"><span id="d">New LC</span></a></h4>
+
+                <h4 class="item4"><a href="issuedLCpage.html"><span id="d">Issued LC</span></a></h4>
+
+                <h4 class="item5"><a href=""><span id="d">Update LC</span></a></h4>
+
+                <h4 class="item6"><a href=""><span id="d">Student Hub</span></a></h4>
+
+                <h4 class="item7"><a href="MyloginPage.html"><span id="d">Log out</span></a></h4>
+            </div>
+
+            <div class="mainFrameBody">
+
+
+                <h1 class="lcheading" align="center">LEAVING CERTIFICATE</h1>
+                <input type="search" name="search"  id="search" placeholder="Explore">
+
+                <h4 class="regno">Registration No</h4>
+                <input type="text" name="registrationno" id="rno">
+                <h4 class="enrollno">Enrollment No</h4>
+                <input type="text" name="enrollmentno" id="enno">
+                <h4 class="noi">Name of Institute </h4>
+                <label id="noi">Government Polytechnic, Malvan</label>
+
+                <h4 class="noc">Name of Candidate</h4>
+                <input type="text" name="noc" id="noc">
+                <h4 class="rc">Race-Caste</h4>
+                <input type="text" name="rc" id="rc">
+                <h4 class="pcb">Place of birth </h4>
+                <input type="text" name="pcb" id="pcb">
+
+                <label class="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                <label id="nationality">Nationality</label>
+                <label id="indian">Indian</label>
+                <label id="lia" for="ilai">Instiutution last attended</label>
+                <input type="text" name="ila" id="ilai">
+
+                <label class="doa">Date of Admission</label>
+                <input type="date" name="doa" id="doai">
+                <label for="doli" class="dol">Date of Leaving</label>
+                <input type="date" name="dol" id="doli">
+                <label for="remark" id="rmk">Remark</label>
+                <textarea name="remark" id="remark" cols="50" rows="8"></textarea>
+
+                <label for="co" class="co">Course and year in which studing and since when </label>
+                <input type="text" name="co" id="co">
+                <label for="reason" class="reason">Reason for Leaving Institute </label>
+                <textarea name="reason" id="reason" cols="30" rows="10"></textarea>
+
+                <span><a href=""><button id="submit" onclick="Submit()"><span>Submit</span></button></a></span>
+                <span><a href=""><button id="clear" onclick="Clear()"><span>Clear</span></button></a></span>
+                <span><button id="searchdata" onclick="searchinfo()"><span>Search</span></button></span>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</form>
+</body>
+
+</html>
